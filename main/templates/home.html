@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Meter Reading Prediction</title>
+</head>
+<body>
+	<form action = {{url_for("predict")}} method = "get">  
+         <table>  
+        <tr><td>Building Id</td>  
+        <td><input type ="number" name ="building_id" min="0" max="1448"></td></tr>  
+        <tr><td>Year</td>
+        <td><input type ="number" name ="year" min="2017" max="2018"></td></tr>  
+        <tr><td><input type = "submit"></td></tr>
+</body>
+</html>
